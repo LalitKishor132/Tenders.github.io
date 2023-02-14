@@ -1,0 +1,29 @@
+.Name{
+    text-transform: capitalize;
+    text-size-adjust: 23px;
+}
+#category_list {
+    height: auto;
+    width: 600px;
+}
+
+.category_part {
+
+    height: 170px;
+    width: 200px;
+    /* background-color: red; */
+    border: 1px solid white;
+    float: left;
+}
+
+.rowmaterial {
+    color: black;
+    text-transform: capitalize;
+}
+
+.rowmaterial:hover,
+img:hover {
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
